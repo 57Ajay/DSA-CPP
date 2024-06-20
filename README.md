@@ -129,5 +129,4 @@ Guidelines for contributing to this repository.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-(Will add later currently I'm boared)
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
