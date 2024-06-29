@@ -11,6 +11,11 @@ string reverseString(const string &str) {
     return reversed;
 }
 
+bool isPalindrome(const string &str) {
+    string reversed = reverseString(str);
+    return str == reversed;
+}
+
 int main() {
     string str;
     cout << "Enter a string: ";
@@ -18,6 +23,12 @@ int main() {
 
     string reversed = reverseString(str);
     cout << "Reversed string: " << reversed << endl;
+
+    if (isPalindrome(str)) {
+        cout << "The string is a palindrome." << endl;
+    } else {
+        cout << "The string is not a palindrome." << endl;
+    }
 
     return 0;
 }
